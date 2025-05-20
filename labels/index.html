@@ -1,0 +1,55 @@
+<html lang="en">
+    <head>
+        <title>Contact Form</title>
+        <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+        
+        <!-- Fonts & Icons -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body class="contact-page">
+        <main id="main">
+            <!-- Form section -->
+            <section class="contact-form-section">
+                <form>
+                    <h2 class="contact-form-heading">Sign up</h2>
+                    <p class="contact-form-intro">Enter your contact information, and then there will be cake. 🍰</p>
+                    <label for="name">Full Name:</label>
+                    <input id="name" class="contact-input" type="text" placeholder="Dave Smith" />
+
+                    <label for="phone">Phone:</label>
+                    <input id="phone" class="contact-input" type="text" placeholder="123-456-7789" />
+
+                    <div class="address">
+                        <div class="city">
+                            <label>City:</label>
+                            <input id="city" class="address-input" type="text" placeholder="Boston" />
+                        </div>
+                        <div class="postcode">
+                            <label>Postcode</label>
+                            <input id="postcode" class="address-input" type="text" placeholder="02346" />
+                        </div>
+                    </div>
+                    <label>Email:</label>
+                    <input id="email" class="contact-input" type="text" placeholder="daveSmith@gmail.com" />
+                    
+                    <fieldset>
+                        <legend for="message">Do you have cats?</legend>
+                        <div class="radio-container">
+                        
+                            <label for="yes">Yes</label>
+                            <input  class="contact-radio" id="yes" type="radio" name="cats" />
+                            <label for="no">No</label>
+                            <input class="contact-radio" id="no" type="radio" name="cats" />
+                        </div>
+                    </fieldset>
+                    <button class="contact-submit-button" type="button">Send message 🎉</button>
+                </form>
+                <img class="contact-image" src="images/drone-contact.png" alt="A woman seeing a drone approaching." />
+            </section>
+        </main>
+    </body>
+</html>
